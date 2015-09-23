@@ -3,8 +3,8 @@ var menuState = {
     //Here displays the name of the game.
     //1st two parameters are x, y positional values -->
     //Then actual text -> Font -> Font color
-    var nameLabel = game.add.text(300, 400, 'Icy-Hot', {font: '50px Arial', fill: 'gold'});
-    var startLabel = game.add.text(300, 150, 'press "W" to start', {font: '25px Arial', fill: 'gold'});
+    var nameLabel = game.add.text(300, 150, 'Minotaur vs Robots', {font: '50px Arial', fill: 'purple'});
+    var startLabel = game.add.text(300, 400, 'press "W" to start', {font: '25px Arial', fill: 'gold'});
     //Define "W"
     var wKey = game.input.keyboard.addKey(Phaser.Keyboard.W);
     //Calls the start function
